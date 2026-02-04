@@ -1184,7 +1184,7 @@ fun BottomSheetPlayer(
                     
                     // Echo Music title at top center
                     Text(
-                        text = "Echo Music",
+                        text = "Swara",
                         style = MaterialTheme.typography.titleLarge.copy(
                             fontFamily = androidx.compose.ui.text.font.FontFamily(androidx.compose.ui.text.font.Font(R.font.zalando_sans_expanded)),
                             fontWeight = FontWeight.Bold,
@@ -1345,7 +1345,7 @@ fun BottomSheetPlayer(
                     
                     // Echo Music title at top center
                     Text(
-                        text = "Echo Music",
+                        text = "Swara",
                         style = MaterialTheme.typography.titleLarge.copy(
                             fontFamily = androidx.compose.ui.text.font.FontFamily(androidx.compose.ui.text.font.Font(R.font.zalando_sans_expanded)),
                             fontWeight = FontWeight.Bold,

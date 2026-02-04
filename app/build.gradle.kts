@@ -11,11 +11,11 @@ plugins {
 }
 
 android {
-    namespace = "iad1tya.echo.music"
+    namespace = "com.swara.music"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "iad1tya.echo.music"
+        applicationId = "com.swara.music"
         minSdk = 26
         targetSdk = 36
         versionCode = 336

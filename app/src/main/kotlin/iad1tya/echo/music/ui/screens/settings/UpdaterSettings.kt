@@ -295,10 +295,10 @@ private fun showUpdateNotification(context: Context, version: String) {
     // Build notification
     val notification = NotificationCompat.Builder(context, "updates")
         .setSmallIcon(R.drawable.update)
-        .setContentTitle("Echo Music Update Available")
+        .setContentTitle("Swara Update Available")
         .setContentText("Version $version is now available")
         .setStyle(NotificationCompat.BigTextStyle()
-            .bigText("A new version ($version) of Echo Music is available. Tap to download and install."))
+            .bigText("A new version ($version) of Swara is available. Tap to download and install."))
         .setPriority(NotificationCompat.PRIORITY_HIGH)
         .setAutoCancel(true)
         .setContentIntent(pendingIntent)

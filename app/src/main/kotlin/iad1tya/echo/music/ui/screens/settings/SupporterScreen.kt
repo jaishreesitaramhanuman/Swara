@@ -361,7 +361,7 @@ fun SupporterScreen(
                 Spacer(Modifier.height(16.dp))
 
                 Text(
-                    text = "Your support helps keep Echo Music free, ad-free, and constantly improving. Every contribution, no matter the size, makes a real difference in bringing high-quality music streaming to everyone.",
+                    text = "Your support helps keep Swara free, ad-free, and constantly improving. Every contribution, no matter the size, makes a real difference in bringing high-quality music streaming to everyone.",
                     style = MaterialTheme.typography.bodyLarge,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                     lineHeight = 24.sp
