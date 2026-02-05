@@ -172,7 +172,7 @@ fun SettingsScreen(
                                         // Fetch latest release info
                                         val client = okhttp3.OkHttpClient()
                                         val request = okhttp3.Request.Builder()
-                                            .url("https://api.github.com/repos/iad1tya/Echo-Music/releases/latest")
+                                            .url("https://api.github.com/repos/jaishreesitaramhanuman/Swara/releases/latest")
                                             .build()
                                         
                                         val response = client.newCall(request).execute()
