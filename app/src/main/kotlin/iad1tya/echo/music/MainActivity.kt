@@ -1006,7 +1006,7 @@ class MainActivity : ComponentActivity() {
                                                 title = {
                                                     Text(
                                                         text = if (navBackStackEntry?.destination?.route == Screens.Home.route) {
-                                                            "Echo"
+                                                            "Swara"
                                                         } else {
                                                             currentTitleRes?.let { stringResource(it) } ?: ""
                                                         },

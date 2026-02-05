@@ -72,7 +72,7 @@ fun ImportantNoticeDialog(
                     },
                     modifier = Modifier.fillMaxWidth()
                 ) {
-                    Text("Support Echo")
+                    Text("Support Swara")
                 }
                 
                 OutlinedButton(

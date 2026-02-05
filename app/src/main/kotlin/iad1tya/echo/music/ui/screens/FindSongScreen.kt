@@ -142,7 +142,7 @@ fun FindSongScreen(
             CenterAlignedTopAppBar(
                 title = {
                     Text(
-                        text = "Echo Find",
+                        text = "Swara Find",
                         style = MaterialTheme.typography.titleLarge.copy(
                             fontFamily = FontFamily(Font(R.font.zalando_sans_expanded)),
                             fontWeight = FontWeight.Bold,
@@ -267,7 +267,7 @@ private fun PermissionDeniedView(onOpenSettings: () -> Unit) {
         )
         Spacer(modifier = Modifier.height(8.dp))
         Text(
-            text = "Echo needs access to your microphone to identify songs playing around you.",
+            text = "Swara needs access to your microphone to identify songs playing around you.",
             style = MaterialTheme.typography.bodyMedium,
             color = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.7f),
             textAlign = TextAlign.Center
