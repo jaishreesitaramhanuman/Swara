@@ -89,7 +89,7 @@ fun AdvancedPlaylistDownloadDialog(
     }
     
     var downloadLocation by remember { mutableStateOf<Uri?>(null) }
-    var defaultDownloadPath by remember { mutableStateOf("Downloads/EchoMusic") }
+    var defaultDownloadPath by remember { mutableStateOf("Downloads/Swara") }
     var isDownloading by remember { mutableStateOf(false) }
     var progress by remember { mutableFloatStateOf(0f) }
     var progressText by remember { mutableStateOf("") }

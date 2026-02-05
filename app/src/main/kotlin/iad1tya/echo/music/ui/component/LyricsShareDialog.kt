@@ -333,7 +333,7 @@ fun LyricsImageCard(
              }
              
              // Footer
-             Text("echomusic.fun", color = Color.White.copy(alpha=0.5f), style = MaterialTheme.typography.labelSmall)
+             Text("Swara", color = Color.White.copy(alpha=0.5f), style = MaterialTheme.typography.labelSmall)
          }
     }
 }

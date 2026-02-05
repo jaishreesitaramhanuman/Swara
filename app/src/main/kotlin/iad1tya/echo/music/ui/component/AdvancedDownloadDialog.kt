@@ -67,7 +67,7 @@ fun AdvancedDownloadDialog(
     var playerResponse by remember { mutableStateOf<PlayerResponse?>(null) }
     var isLoading by remember { mutableStateOf(true) }
     var downloadLocation by remember { mutableStateOf<Uri?>(null) }
-    var defaultDownloadPath by remember { mutableStateOf("Downloads/EchoMusic") }
+    var defaultDownloadPath by remember { mutableStateOf("Downloads/Swara") }
 
     // Fetch PlayerResponse for formats
     LaunchedEffect(mediaMetadata.id) {
@@ -322,19 +322,19 @@ fun downloadFile(context: Context, url: String, fileName: String, destinationUri
               // or use setDestinationInExternalPublicDir if no Uri is provided.
               
               // IF specific URI is tricky with DownloadManager, we might want to guide user to standard paths.
-              // For now, let's use the standard "Downloads/EchoMusic" SubPath approach which works well.
+              // For now, let's use the standard "Downloads/Swara" SubPath approach which works well.
               // If the user picked a tree URI, we can't easily pass that to DownloadManager directly
               // without handling file creation ourselves and copying bytes (which loses DownloadManager benefits).
               
               // So, we will ignore the picked URI for DownloadManager and just use the standard Downloads folder 
               // but create a subfolder.
               
-               request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, "EchoMusic/$fileName")
-               Toast.makeText(context, "Downloading to Downloads/EchoMusic", Toast.LENGTH_SHORT).show()
+               request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, "Swara/$fileName")
+               Toast.makeText(context, "Downloading to Downloads/Swara", Toast.LENGTH_SHORT).show()
 
         } else {
-             request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, "EchoMusic/$fileName")
-             Toast.makeText(context, "Downloading to Downloads/EchoMusic", Toast.LENGTH_SHORT).show()
+             request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, "Swara/$fileName")
+             Toast.makeText(context, "Downloading to Downloads/Swara", Toast.LENGTH_SHORT).show()
         }
 
         val downloadManager = context.getSystemService(Context.DOWNLOAD_SERVICE) as DownloadManager

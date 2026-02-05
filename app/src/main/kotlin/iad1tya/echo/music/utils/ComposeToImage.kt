@@ -188,7 +188,7 @@ object ComposeToImage {
         secondaryTxtColor: Int,
         backgroundColor: Int
     ) {
-        val appName = "echomusic.fun"
+        val appName = "Swara"
         val appNamePaint = TextPaint().apply {
             color = secondaryTxtColor
             textSize = cardSize * 0.030f
